@@ -1,4 +1,4 @@
-package com.study.rxjava.chapter03;
+package com.study.rxjava.util;
 
 import lombok.Getter;
 

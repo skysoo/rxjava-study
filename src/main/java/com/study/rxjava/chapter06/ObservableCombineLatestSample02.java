@@ -1,6 +1,6 @@
 package com.study.rxjava.chapter06;
 
-import com.study.rxjava.chapter03.SampleData;
+import com.study.rxjava.util.SampleData;
 import com.study.rxjava.util.NumberUtil;
 import io.reactivex.rxjava3.core.Observable;
 import lombok.extern.slf4j.Slf4j;

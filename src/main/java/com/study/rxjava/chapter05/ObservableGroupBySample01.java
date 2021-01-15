@@ -1,8 +1,8 @@
 package com.study.rxjava.chapter05;
 
-import com.study.rxjava.chapter03.Car;
-import com.study.rxjava.chapter03.CarMaker;
-import com.study.rxjava.chapter03.SampleData;
+import com.study.rxjava.util.Car;
+import com.study.rxjava.util.CarMaker;
+import com.study.rxjava.util.SampleData;
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.observables.GroupedObservable;
 import lombok.extern.slf4j.Slf4j;
