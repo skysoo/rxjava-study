@@ -25,7 +25,9 @@ public class SampleData {
             CarMaker.HYUNDAE,
             CarMaker.AUDI,
             CarMaker.SSANGYOUNG,
-            CarMaker.KIA
+            CarMaker.KIA,
+            CarMaker.SAMSUNG,
+            CarMaker.BENZ
     };
 
     public static List<Car> carList =
