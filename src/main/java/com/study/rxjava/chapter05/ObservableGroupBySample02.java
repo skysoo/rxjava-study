@@ -15,7 +15,7 @@ public class ObservableGroupBySample02 {
                         .groupBy(car -> car.getCarMaker());
 
         observable.subscribe(groupedObservable -> groupedObservable
-                .filter(car -> groupedObservable.getKey().equals(CarMaker.쉐보레))
+                .filter(car -> groupedObservable.getKey().equals(CarMaker.CHEVROLET))
                 .subscribe(
                         car -> log.info("Group: " + groupedObservable.getKey()
                                 + " Car Name: " + car.getCarName())
